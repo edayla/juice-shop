@@ -14,8 +14,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Node.js ile ilgili işlemleri buraya ekle
-                sh 'npm install'
-                sh 'npm run postinstall'
+                bat 'npm install'
+                bat 'npm run postinstall'
             }
         }
 
